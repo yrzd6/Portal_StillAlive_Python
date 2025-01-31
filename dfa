@@ -1,0 +1,15 @@
+*   [33m47f18de[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge pull request #4 from chirsz-ever/chirsz/improve-220117
+[31m|[m[32m\[m  
+[31m|[m * [33m5ae5eaf[m 	- os.get_terminal_size() doesn't work in MINGW64. Changed to 	shutil.get_terminal_size() 	- Fix VT terminal detection issue 	- Fix compatibility issue with Informer 213 terminal in 	drawFrame()
+[31m|[m * [33mbed4838[m Add README.md
+[31m|[m * [33ma5fda05[m Add '--no-sound' option
+[31m|[m * [33m67c2212[m Automaticly adapt to the terminal size
+[31m|[m * [33m934b0f3[m Allow to interrupt executing by Ctrl-C
+[31m|[m * [33m787293e[m Support color and screen buffer
+[31m|[m[31m/[m  
+*   [33ma907344[m Merge pull request #2 from tizee/fix/lines
+[33m|[m[34m\[m  
+[33m|[m * [33mf8b0dd1[m fix: tidy up code and enable line break
+[33m|[m[33m/[m  
+* [33mb3c2a42[m updated preface information
+* [33m85a63e2[m The first and probably the last commit of this code
