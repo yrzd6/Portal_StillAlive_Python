@@ -53,6 +53,7 @@ enable_color = not is_vt or int(re.search(r"\d+", is_vt.group()).group()) >= 241
 
 enable_sound = '--no-sound' not in sys.argv
 
+enable_stay = '--no-stay' not in sys.argv
 if enable_sound:
     import playsound
 
@@ -877,3 +878,8 @@ while(lyrics[currentLyric].mode != 9):
     time.sleep(0.01)
 
 end_draw()
+
+if enable_sound:
+    while True:
+        time.sleep(600)
+
